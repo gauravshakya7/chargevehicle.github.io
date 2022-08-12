@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ body {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .txt{
+      font-size: 10px;
+      font-weight: bold;
+  }
+
+  .hhh{
+      position: relative;
+      top: 20px;
+      text-align: center;
+      color: white;
+  }
+  .line{
+      position: absolute;
+      top: 60px;
+      left: 50%;
+      transform:  translate(-50%, -50%);
+
+      height: 1px;
+      width: 200px;
+      background-color: white;
+  }
+
+
+
+  .ts{
+      position:absolute;
+      top: 225px;
+      left: 25%;
+      transform:  translate(-50%, -50%);
+      z-index: 1;
+      color: white;
+  }
+
+  .ss{
+    position:absolute;
+    top: 225px;
+    right: 18%;
+    transform:  translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+}
+
+
+  .r1{
+      position:absolute;
+
+      top: 65%;
+      left: 25%;
+      transform:  translate(-50%, -50%);
+      height: 300px;
+    width: 200px;
+      background-color: grey;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 3px 6px 5px;
+  }
+
+  .r2{
+    position:absolute;
+
+    top: 65%;
+    right: 10%;
+    transform:  translate(-50%, -50%);
+    height: 300px;
+    width: 200px;
+    background-color: gray;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 3px 6px 5px;
+    /* float: right; */
+}
+
+
+.timg{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 130px;
+    left: 25%;
+    transform:  translate(-50%, -50%);
+}
+
+.simg{
+    height: 170px;
+    width: 170px;
+    position: absolute;
+    top: 140px;
+    right: 15%;
+    transform:  translate(-50%, -50%);
+}
+
+
+.s1{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 290px;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.s2{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 340px;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.s3{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 390px;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+
+.s6{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 440px;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.s5{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 490px;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+
+
+.s7{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 290px;
+    right: 30.5%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.s8{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 340px;
+    right: 30.5%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.s9{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 390px;
+    right: 30.5%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+
+.s10{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 440px;
+    right: 30.5%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.s11{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 490px;
+    right: 30.5%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+
+.b1{
+   
+    background: white;
+    /* display: flex; */
+    box-sizing: border-box;
+    position: absolute;
+    top: 290px;
+    left: 370px;
+    transform: translate(-50%, -50%);
+    height: 6px;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 3px;
+    overflow: hidden;
+   
+    z-index: 3;
+}
+
+.pb {
+    display: block;
+    height: 100%;
+    background:orangered ;
+    background-size: 300% 100%;
+    animation: anim 3s linear infinite;
+}
+
+@keyframes anim {
+    0% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 0%;
+    }
+}
+
+
+
+.b2{
+   
+    background: white;
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    top: 340px;
+    left: 370px;
+    transform: translate(-50%, -50%);
+    height: 6px;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 3px;
+    overflow: hidden;
+   
+    z-index: 3;
+}
+
+.pb2 {
+    display: block;
+    height: 100%;
+    background:blue ;
+    background-size: 300% 100%;
+    animation: pa 3s linear infinite;
+}
+
+
+
+
+.b3{
+   
+    background: white;
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    top: 390px;
+    left: 370px;
+    transform: translate(-50%, -50%);
+    height: 6px;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 3px;
+    overflow: hidden;
+   
+    z-index: 3;
+}
+
+.pb3 {
+    display: block;
+    height: 100%;
+    background:skyblue ;
+    background-size: 300% 100%;
+    animation: pa 3s linear infinite;
+}
+
+
+
+
+.b4{
+   
+    background: white;
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    top: 440px;
+    left: 370px;
+    transform: translate(-50%, -50%);
+    height: 6px;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 3px;
+    overflow: hidden;
+   
+    z-index: 3;
+}
+
+.pb4 {
+    display: block;
+    height: 100%;
+    background:rgb(235, 22, 15) ;
+    background-size: 300% 100%;
+    animation: pa 3s linear infinite;
+}
+
+
+
+.b5{
+   
+    background: white;
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    top: 490px;
+    left: 370px;
+    transform: translate(-50%, -50%);
+    height: 6px;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 3px;
+    overflow: hidden;
+   
+    z-index: 3;
+}
+
+.pb5 {
+    display: block;
+    height: 100%;
+    background:yellow ;
+    background-size: 300% 100%;
+    animation: pa 3s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+
+.b6{
+   
+    background: white;
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    top: 290px;
+    right: 200px;
+    transform: translate(-50%, -50%);
+    height: 6px;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 3px;
+    overflow: hidden;
+   
+    z-index: 3;
+}
+
+.pb6 {
+    display: block;
+    height: 100%;
+    background:orangered ;
+    background-size: 300% 100%;
+    animation: pa 3s linear infinite;
+}
+
+@keyframes pa {
+    0% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 0%;
+    }
+}
+
+
+
+.b7{
+   
+    background: white;
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    top: 340px;
+    right: 200px;
+    transform: translate(-50%, -50%);
+    height: 6px;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 3px;
+    overflow: hidden;
+   
+    z-index: 3;
+}
+
+.pb7 {
+    display: block;
+    height: 100%;
+    background:blue ;
+    background-size: 300% 100%;
+    animation: pa 3s linear infinite;
+}
+
+
+
+
+.b8{
+   
+    background: white;
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    top: 390px;
+    right: 200px;
+    transform: translate(-50%, -50%);
+    height: 6px;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 3px;
+    overflow: hidden;
+   
+    z-index: 3;
+}
+
+.pb8 {
+    display: block;
+    height: 100%;
+    background:skyblue ;
+    background-size: 300% 100%;
+    animation: pa 3s linear infinite;
+}
+
+
+
+
+.b9{
+   
+    background: white;
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    top: 440px;
+    right: 200px;
+    transform: translate(-50%, -50%);
+    height: 6px;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 3px;
+    overflow: hidden;
+   
+    z-index: 3;
+}
+
+.pb9 {
+    display: block;
+    height: 100%;
+    background:rgb(235, 22, 15) ;
+    background-size: 300% 100%;
+    animation: pa 3s linear infinite;
+}
+
+
+
+.b10{
+   
+    background: white;
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    top: 490px;
+    right: 200px;
+    transform: translate(-50%, -50%);
+    height: 6px;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 3px;
+    overflow: hidden;
+   
+    z-index: 3;
+}
+
+.pb10 {
+    display: block;
+    height: 100%;
+    background:yellow ;
+    background-size: 300% 100%;
+    animation: pa 3s linear infinite;
+}
+
+.vdo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    max-width: 100%;
+    z-index: -2;
+}
+
+/* .bag{
+    height: 3000px;
+    width: 2000px;
+    background-color: black;
+    opacity: 40%;
+    z-index: -10;
+}
+
+
+
+
+ */
+
+
+
+
+
+

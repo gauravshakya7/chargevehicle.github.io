@@ -1,0 +1,580 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+  }
+  
+
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+  .icon1{
+      position: absolute;
+   
+    left: 50%;
+    top: 40px;
+     transform: translate(-50%, -50%);
+
+    height:30px;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .center{
+      position: absolute;
+      height: 200px;
+      width: 200px;
+    
+      left: 50%;
+      top: 50%;
+
+      transform: translate(-50%, -50%);
+      transition: width 1s, transform 1s, height 1s, cursor .1s;
+     
+     
+  }
+  .center img{
+    animation: cen 4s linear infinite;
+      /* cursor: pointer; */
+    
+     
+     
+  }
+
+ 
+
+
+
+
+
+  @keyframes cen{
+      100%{
+          transform: rotate(360deg);
+      }
+  }
+
+
+  .ch{
+      
+ position: absolute;
+ left: 50%;
+ top: 460px;
+ transform: translate(-50%, -50%);
+ font-size: 8px;
+ cursor: pointer;
+ transition: opacity .5s ease-in-out;
+ z-index: 100;
+ 
+
+  }
+
+ 
+
+
+
+
+  /* socilamedia */
+
+  .v1{
+    border-left: 4px solid black;
+    height: 88px;
+    position: absolute;
+    left: 29.5px;
+   top: 578px;
+    
+   /* transform: scale(2px); */
+   transition: opacity .1s, z-index .1s;
+   animation: slideup .6s ease-in-out forwards .5s;
+  }
+
+  @keyframes slideup {
+   
+    0% {
+      transform: scale(0);
+    }
+    100%{
+      transform:  scale(4px);
+    }
+    
+  }
+
+  
+
+  .sm{
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    cursor: pointer;
+    animation: slide .6s ease-in-out forwards .5s;
+    transition: z-index .1s;
+
+  }
+
+  .i1:hover{
+    transform: scale(1.1);
+  }
+  .i2:hover{
+    transform: scale(1.1);
+  }
+  .i3:hover{
+    transform: scale(1.1);
+  }
+
+  @keyframes slide {
+   
+    0% {
+      transform: scale(0);
+    }
+    100%{
+      transform:  scale(4px);
+    }
+    
+  }
+
+ .i1{
+height: 25px;
+width: 25px;
+position: absolute;
+top: 450px;
+
+ }
+
+ .i2{
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 400px;
+   }
+
+   .i3{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 350px;
+     }
+
+
+
+
+     .v12{
+      border-left: 4px solid black;
+      height: 88px;
+      position: absolute;
+      right: 29.5px;
+     top: -8px;
+      
+     /* transform: scale(2px); */
+     animation: slideup .6s ease-in-out forwards .5s;
+    }
+  
+    @keyframes slideup {
+     
+      0% {
+        transform: scale(0);
+      }
+      100%{
+        transform:  scale(4px);
+      }
+      
+    }
+  
+    
+  
+    .sm2{
+      max-width: 100%;
+      max-height: 100%;
+      position: absolute;
+      right: 42px;
+      top: -250px;
+      /* cursor: pointer; */
+      animation: slide1 .6s ease-in-out forwards .5s;
+      transition: cursor .1s;
+      
+  
+    }
+
+    
+  
+    .i4:hover{
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+    .i5:hover{
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+    .i6:hover{
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  
+    @keyframes slide1 {
+     
+      0% {
+        transform: scale(0);
+        cursor: pointer;
+      }
+      100%{
+        transform:  scale(4px);
+        cursor: pointer;
+      }
+      
+    }
+  
+   .i4{
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 450px;
+  cursor: pointer;
+  transition: display .1s;
+  
+   }
+  
+   .i5{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 400px;
+    cursor: pointer;
+     }
+  
+     .i6{
+      height: 25px;
+      width: 25px;
+      position: absolute;
+      top: 350px;
+      cursor: pointer;
+       }
+
+
+
+
+       .sm4{
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+        left: 20px;
+        top: 80px;
+        cursor: pointer;
+        display: none;
+        transition: display .1s;
+      }
+
+      .ia{
+        height: 25px;
+        width: 25px;
+        position: absolute;
+        top: 450px;
+        
+         }
+        
+         .ib{
+          height: 25px;
+          width: 25px;
+          position: absolute;
+          top: 400px;
+           }
+        
+           .ic{
+            height: 25px;
+            width: 25px;
+            position: absolute;
+            top: 350px;
+             }
+
+
+             .ia:hover{
+              transform: scale(1.1);
+            }
+            .ib:hover{
+              transform: scale(1.1);
+            }
+            .ic:hover{
+              transform: scale(1.1);
+            }
+    
+
+
+       
+
+
+       .rectangle2{
+        width: 0px;
+        height: 0px;
+        border: 3px solid white;
+        background: transparent;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       
+       
+       transform: translate(-50%, -50%);
+       transition: width 1.1s linear, border .2s linear;
+        z-index: 3;
+      }
+
+
+       .v13{
+        border-left: 3px solid white;
+        height: 88px;
+        position: absolute;
+        left: 29.5px;
+       top:578px;
+       z-index: 2;
+       display: none;
+       transition: opacity .1s;
+        
+       /* transform: scale(2px); */
+       animation: display .1s;
+      }
+
+      .rectangle{
+        height: 100%;
+        width: 0%;
+        background-color: black;
+        position: absolute;
+        top: 0px;
+        left: -1px;
+        opacity: 0;
+        
+        transition: width 1s linear, opacity .9s linear;
+        z-index: -1;
+      }
+
+
+      .vector{
+        max-height: 100%;
+        max-width: 100%;
+      /* display: none; */
+      opacity: 0;
+      z-index: 4;
+      
+       
+       transition:  opacity .51s linear, position 1s linear;
+        
+       
+      }
+    .vector img{
+      height: 600px;
+      /* width: 480px; */
+     
+      position: absolute;
+      top: 41.4%;
+      left: 60%;
+     
+      z-index: 4;
+     
+      transform: translate(-50%, -50%);
+      
+      
+    }
+
+
+    .text{
+      color: white;
+      font-family: fantasy;
+      position: absolute;
+      top:28%;
+      left: 30%;
+      text-align: left;
+      /* display: none; */
+      opacity: 0;
+         
+         transition:  opacity .2s ease-out;
+     
+    }
+
+    .text .ha{
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 100px;
+    }
+
+     .hb{
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 70px;
+      opacity: 0;
+      transition: opacity 2.8s ease-in;
+    
+      
+     
+    }
+    .text .hb span{
+      color: tomato;
+      display: none;
+      
+    }
+
+    .text .hc{
+      font-size: 14px;
+      text-align: justify;
+      
+     
+    }
+
+    span::before{
+      content: 'Gaurav Shakya';
+     
+     
+      animation: animate 15s infinite;
+    }
+    @keyframes animate{
+      0%{
+        content: 'Gaurav Shakya';
+        
+      }
+      20%{
+        content: 'a Developer';
+      }
+      40%{
+        content: 'a Designer';
+      }
+      60%{
+        content: 'an Engineer';
+      }
+      80%{
+        content: 'a Photographer';
+      }
+      90%{
+        content: 'a Freelancer';
+      }
+    }
+
+
+
+   .music{
+     /* max-width: 100%;
+     max-height: 100%; */
+     position: absolute;
+     left: 50%;
+     top: 30px;
+     transform: translate(-50%, -50%);
+     height: 26px;
+     width: 26px;
+
+     animation: sss .9s ease-in-out forwards .8s;
+
+   }
+
+
+   @keyframes sss {
+   
+    0% {
+      opacity: 0;
+    }
+    100%{
+      opacity:1;
+    }
+    
+  }
+
+  .mussic{
+   
+   
+    height: 26px;
+    width: 26px;
+
+    animation: sss .9s ease-in-out forwards .8s;
+    cursor: pointer;
+  }
+
+
+  #player-container #play-pause {
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* text-indent: -999999px; */
+    height:80px;
+    width: 80px;
+  
+    transition: all 0.3s ease-in-out 0s;
+    
+    z-index: 100;
+      background-image: url("B:/New folder/webdev project/img/play-button.png");
+      background-repeat: no-repeat!important;
+      background-position: center;
+     
+   
+    background-position:center;
+    background-size:25px;
+   
+  }
+  .play {
+    background-image: url("B:/New folder/webdev project/img/play-button.png");
+  }
+  .pause {
+     background-image: url("B:/New folder/webdev project/img/pause.png")!important;
+  }
+ 
+
+
+.play:hover::before, .play:focus::before {
+    opacity: 1;
+  }
+  
+  .play::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 6px solid #00FFCB;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+  }
+
+  
+  @keyframes ring {
+    0% {
+      width: 5px;
+      height: 5px;
+      opacity: 1;
+    }
+    100% {
+      width: 60px;
+      height: 60px;
+      opacity: 0;
+    }
+  }
+
+
+  .reverse{
+    position: absolute;
+    left: 50%;
+    top: 585px;
+    transform: translate(-50%, -50%);
+    height: 28px;
+    width: 28px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .1s linear  ;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
